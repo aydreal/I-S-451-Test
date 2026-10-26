@@ -14,3 +14,6 @@ df = pd.DataFrame({"Feature": X.flatten(), "Target": y})
 model = LinearRegression()
 model.fit(df[["Feature"]], df["Target"])
 print(f"Coefficient: {model.coef_[0]:.2f}, R²: {model.score(df[['Feature']], df['Target']):.3f}")
+
+
+# This was a comment added by me. Frank Gao
